@@ -1,0 +1,225 @@
+@media (max-width: 1300px) {
+    .nav_list_links_soc {
+        margin-right: 0px;
+    }
+
+    .position {
+        max-width: 866px;
+        margin: 0 30px;
+    }
+
+    .header .position {
+        padding-left: 25px;
+    }
+
+    .section_offer {
+        min-height: 730px;
+    }
+
+    .content_section_offer {
+        top: 120px;
+        padding: 25px;
+        max-width: 760px;
+        min-height: 450px;
+    }
+
+    .title_content_offer h1 {
+        font-size: 30px;
+    }
+
+    .text_content_offer {
+        font-size: 26px;
+    }
+
+    .video_content_offer {
+        width: 350px;
+        height: 200px;
+    }
+
+    .special_section_offer {
+        max-width: 460px;
+        right: -105px;
+        top: 105px;
+        padding: 20px;
+    }
+
+    .text_special_offer { 
+        margin-top: 12px; 
+        font-size: 22px;
+    }
+    
+    .special_price_offer {
+        margin-top: 5px;
+        line-height: 52px;
+    }
+    
+    .special_cost_offer {
+        font-size: 60px;
+    }
+    
+    .valuta_special_cost {
+        font-size: 35px;
+    }
+    
+    
+    .title_special_offer h2{
+        font-size: 22px;
+    }
+    
+    .choice_special_offer {
+      margin-top: 5px;
+    }
+    
+    .text_choice {
+        font-size: 17px;
+    }
+    
+    .icon_select_model {
+        height: 55px;
+        width: 35px;
+    }
+
+    .special_offer_image {
+        top: 40px;
+        right: 20px;
+        width: 230px;
+        height: 142px;
+    }
+
+    .merit_choice{
+        margin-top: 12px;
+    }
+
+    .type_merit {
+        line-height: 24px;
+        font-size: 15px;
+    }
+
+    .type_merit:after {
+        left: -26px;
+        width: 10px;
+        height: 10px;
+        bottom: 10px;
+    }
+
+    .button_special_offer {
+        bottom: -120px;
+    }
+}
+
+@media (max-width: 950px) {
+
+    .link_mobal {
+        font-size: 25px;
+        align-items: center;
+    }
+
+    .position {
+        max-width: 866px;
+        margin: 0 30px;
+    }
+
+    .header .position {
+        padding-left: 25px;
+    }
+
+    .section_offer {
+        min-height: 730px;
+    }
+
+    .content_section_offer {
+        top: 120px;
+        padding: 25px;
+        max-width: 760px;
+        min-height: 450px;
+    }
+
+    .title_content_offer h1 {
+        font-size: 30px;
+    }
+
+    .text_content_offer {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 750px) {
+
+    .nav_list_links_soc {
+        margin-right: 0px;
+    }
+
+    .header .position {
+        padding: 0;
+        margin: 0 10px;
+    }
+
+    .header {
+        min-height: 80px;
+    }
+
+    .link_mobal {
+        font-size: 19px;
+        margin-left: 0;
+        width: 160px;
+        height: 100%;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .hedear_nav_logo {
+        align-items: center;
+        height: 50%;
+        width: 160px;
+    }
+
+    .link_logo {
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 46px;
+        width: 160px;
+    }
+
+    .header_nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .nav_list_links_soc {
+        align-items: flex-start;
+        padding-top: 13px;
+        width: 100px;
+    }
+
+    .link_icon_soc {
+        background-size: contain;
+        width: 28px;
+        height: 28px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .header_nav {
+        margin-left: 10px;
+    }
+
+    .link_mobal {
+        width: 130px; 
+        font-size: 17px;    
+    }
+
+    .link_logo {
+        width: 130px;
+    }
+
+    .header .position {
+        padding: 0;
+        margin: 0;
+        margin-right: 10px;
+    }
+}
