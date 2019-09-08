@@ -10,17 +10,17 @@ a {
 
 @font-face {
     font-family: Muller; 
-    src: url(/Fonts/ofont.ru_Muller.ttf); 
+    src: url(../Fonts/ofont.ru_Muller.ttf); 
    }
 
 @font-face {
     font-family: MullerHeavy; 
-    src: url(/Fonts/Fontfabric\ -\ MullerHeavy.otf); 
+    src: url(../Fonts/Fontfabric\ -\ MullerHeavy.otf); 
    }
 
 @font-face {
     font-family: MyriadProRegular; 
-    src: url(/Fonts/8143.otf); 
+    src: url(../Fonts/8143.otf); 
    }
    
 /*
@@ -58,7 +58,7 @@ a {
     display: block;
     width: 180px;
     height: 100%;
-    background-image: url(/img/_Group_.png);
+    background-image: url(../img/_Group_.png);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -99,15 +99,15 @@ a {
 }
 
 .link_wiber {
-    background-image: url(/img/Wiber_.png)
+    background-image: url(../img/Wiber_.png)
 }
 
 .link_telegram {
-    background-image: url(/img/Twiter_.png)
+    background-image: url(../img/Twiter_.png)
 }
 
 .link_watsap {
-    background-image: url(/img/Watsap_.png)
+    background-image: url(../img/Watsap_.png)
 }
 
 
@@ -197,7 +197,7 @@ main section {
     border: 6px solid #fceaca;
     border-radius: 16px;
     margin-top: 36px;
-    background-image: url(/img/_Clip\ Group_.png);
+    background-image: url(../img/_Clip\ Group_.png);
     background-size: 102% 102%;
     background-position: -3px -3px;;
     background-repeat: no-repeat;
@@ -272,27 +272,27 @@ main section {
 }
 
 #model_1 {
-    background-image: url(/img/onecolor_.png)
+    background-image: url(../img/onecolor_.png)
 }
 
 #model_2 {
-    background-image: url(/img/twocolor_.png)
+    background-image: url(../img/twocolor_.png)
 }
 
 #model_3 {
-    background-image: url(/img/trwecolor_.png)
+    background-image: url(../img/trwecolor_.png)
 }
 
 #model_4 {
-    background-image: url(/img/focolor_.png)
+    background-image: url(../img/focolor_.png)
 }
 
 #model_5 {
-    background-image: url(/img/faifcoclor_.png)
+    background-image: url(../img/faifcoclor_.png)
 }
 
 #model_6 {
-    background-image: url(/img/sixcolor_.png)
+    background-image: url(../img/sixcolor_.png)
 }
 
 .merit_choice{
