@@ -58,7 +58,7 @@ a {
     display: block;
     width: 180px;
     height: 100%;
-    background-image: url(../img/_Group_.png);
+    background-image: url(../img/group.png);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -99,15 +99,15 @@ a {
 }
 
 .link_wiber {
-    background-image: url(../img/Wiber_.png)
+    background-image: url(../img/wiber_.png)
 }
 
 .link_telegram {
-    background-image: url(../img/Twiter_.png)
+    background-image: url(../img/twiter_.png)
 }
 
 .link_watsap {
-    background-image: url(../img/Watsap_.png)
+    background-image: url(../img/watsap.png)
 }
 
 
@@ -197,7 +197,7 @@ main section {
     border: 6px solid #fceaca;
     border-radius: 16px;
     margin-top: 36px;
-    background-image: url(../img/_Clip\ Group_.png);
+    background-image: url(../img/clipgroup.png);
     background-size: 102% 102%;
     background-position: -3px -3px;;
     background-repeat: no-repeat;
