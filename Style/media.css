@@ -106,7 +106,47 @@
     .button_special_offer {
         bottom: -120px;
     }
+
+    .wrapper {
+        padding-left: 25px;
+    }
+    
+    .content_section_order:after {
+        content: "";
+        position: absolute;
+        height: 80%;
+        width: 455px;
+        top: 0;
+        right: -50px;
+        background-image: url(../img/fonesectionorder.png);
+        background-size: 180% 180%;
+        background-repeat: no-repeat;
+        background-position: 92% 100%;
+    }
+
+    .section_order {
+        min-height: 730px;
+        background: url(../img/backsectionorder_.png) repeat-x 100% 159.5%, linear-gradient(to bottom, white 25%, #e4eaef 25%, #e4eaef 64%, white 64%);
+    }
+
+    .content_section_order {
+        margin-top: 80px;
+    }
+
+    .title_section_order {
+        font-size: 22px;
+    }
+
+    .text_section_order {
+        justify-content: space-around;
+        margin-top: 60px;
+    }
+
+    .description_order {
+        font-size: 24px;
+    }
 }
+
 
 @media (max-width: 950px) {
 
@@ -266,6 +306,39 @@
     }
 }
 
+@media (max-width: 850px) {
+
+    .section_order {
+        min-height: 650px;
+        background: url(../img/backsectionorder_.png) repeat-x 100% 195.5%, linear-gradient(to bottom, white 25%, #e4eaef 25%, #e4eaef 64%, white 64%);
+    }
+
+    .content_section_order {
+        margin-top: 65px;
+    }
+
+    .title_section_order {
+        font-size: 18px;
+    }
+
+    .text_section_order {
+        margin-top: 45px;
+    }
+
+    .description_order {
+        font-size: 22px;
+    }
+
+    .buttoun_section_orderer {
+        margin-top: 70px;
+    }
+
+    .content_section_order:after {
+        right: -25px;
+    }
+
+}
+
 @media (max-width: 750px) {
 
     .nav_list_links_soc {
@@ -309,8 +382,40 @@
         align-items: flex-start;
     }
 
-}
+    .section_order {
+        min-height: 570px;
+        background: url(../img/backsectionorder_.png) repeat-x 100% 274%, linear-gradient(to bottom, white 25%, #e4eaef 25%, #e4eaef 64%, white 64%);
+    }
 
+    .content_section_order {
+        margin-top: 60px;
+    }
+
+    .title_section_order {
+        font-size: 16px;
+    }
+
+    .text_section_order {
+        justify-content: space-around;
+        margin-top: 45px;
+        height: 200px;
+    }
+
+    .description_order {
+        font-size: 20px;
+    }
+
+    .buttoun_section_orderer {
+        margin-top: 70px;
+    }
+
+    .content_section_order:after {
+        height: 70%;
+        width: 300px;
+        right: 0;
+    }
+
+}
 
 @media (max-width: 690px) { 
 
@@ -441,6 +546,56 @@
         top: 2px;
         left: -100px;
     }
+
+}
+
+@media (max-width: 650px) {
+    .content_section_order:after {
+       top: 40px;
+       width: 180px;
+       height: 200px;
+       right: 0px;
+    }
+
+    .buttoun_section_orderer {
+        transform-origin: left top;
+        transform: scale(0.7);
+        margin-top: 30px;
+    }
+
+
+    .section_order {
+        min-height: 390px;
+        background: url(../img/backsectionorder_.png) repeat-x 100%  242px, linear-gradient(to bottom, white 24%, #e4eaef 24%, #e4eaef 62%, white 62%);
+    } 
+
+     .content_section_order {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .position {
+        display: flex;
+        position: relative;
+        width: 100%;
+    }
+
+    .title_section_order {
+        font-size: 13px;
+        max-width: 320px;;
+    }
+
+    .text_section_order {
+        justify-content: space-around;
+        margin-top:13px;
+        height: 150px
+    }
+
+    .description_order {
+        font-size: 16px;
+    } 
+    
 }
 
 @media (max-width: 500px) {
@@ -481,4 +636,28 @@
         margin: 0;
         margin-right: 10px;
     }
+}
+
+@media (max-width: 400px) {
+    .content_section_order:after {
+        top: 60px;
+        width: 160px;
+        height: 160px;
+        right: 0px;
+     }
+ 
+     .title_section_order {
+         font-size: 11px;
+         max-width: 280px;;
+     }
+ 
+     .text_section_order {
+         margin-top: 20px;
+     }
+ 
+     .description_order {
+         font-size: 14px;
+     } 
+
+
 }

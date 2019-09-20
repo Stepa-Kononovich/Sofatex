@@ -143,10 +143,16 @@ main section {
     max-width: 1100px;
     height: 26px;
     top: -13px;
-    left: 10%;
-    right: 10%;
+    left: 8.8%;
+    right: 8.8%;
     background: #af1e60;
 }
+
+.wrapper {
+    padding-left: 45px;
+    width: 100%;
+}
+
 
 /*
 ===========================================================================>
@@ -402,4 +408,131 @@ main section {
     box-shadow: inset 0px 0px 10px white;
     border-bottom: 1px solid #fba98a;
     border-top: 1px solid #fba98a;
+}
+
+/*
+===========================================================================>
+||||||||||||||||||||||||||||||||Section order||||||||||||||||||||||||||||||
+===========================================================================>
+*/
+
+.section_order {
+    min-height: 820px;
+    background: url(../img/backsectionorder_.png) repeat-x 100% 137%, linear-gradient(to bottom, white 25%, #e4eaef 25%, #e4eaef 64%, white 64%);
+}
+
+.content_section_order {
+    position: relative;
+    margin-top: 92px;
+    text-transform: uppercase;
+}
+
+.title_section_order {
+    color: #6e6e6e;
+    max-width: 70%;
+    font-family: MullerHeavy;
+    font-size: 28px;
+}
+
+.text_section_order {
+    margin-top: 66px;
+    display: flex;
+    height: 245px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.description_order {
+    color: #757474;
+    font-family: Muller;
+    font-size: 30px;
+}
+
+.content_section_order:after {
+    content: "";
+    position: absolute;
+    height: 110%;
+    width: 655px;
+    top: 0;
+    right: 0;
+    background-image: url(../img/fonesectionorder.png);
+    background-size: 180% 180%;
+    background-repeat: no-repeat;
+    background-position: 92% 100%;
+}
+
+.button_order {
+    height: 98px;
+    width: 210px;
+    margin-right: 45px;
+    border-radius: 35px;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.content_button_order {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 85px;
+    border-radius: 35px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.buttoun_section_orderer {
+    display: flex;
+    width: 100%;
+    margin-top: 115px;
+}
+
+.icon_button_order {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.text_button_order {
+   width: 105px;
+   padding-top: 3px;
+   font-family: MullerHeavy;
+   color: white;
+}
+
+.content_button_watsap {
+    background: url(../img/shadow-button-order.png) no-repeat bottom right, url(../img/circle-button-order.png) no-repeat 60% 50%, linear-gradient(to bottom, #81bd6d 1%, #3d9658 50%, #3d9658 100%);
+    border: 2px solid #21763b;
+    box-shadow: inset 0px 0px 5px #399054;
+}
+
+
+.content_button_wiber{
+    background: url(../img/shadow-button-order2.png) no-repeat bottom right, url(../img/circle-button-order.png) no-repeat 60% 50%, linear-gradient(to bottom, #e166d1 1%, #972686 50%, #972686 100%);
+    border: 2px solid #920912;
+    box-shadow: inset 0px 0px 5px #e66ad3;
+}
+
+.watsap_button {
+    background: #247c3e;
+    box-shadow: inset -5px -5px 1px #186830;
+ }
+
+ .wiber_button {
+    background: #8b0072;
+    box-shadow: inset -5px -5px 1px #690155;
+ }
+
+ .icon_button_wiber {
+     background: url(../img/button-icon-wiber.png) no-repeat center center, radial-gradient(at 33% 33%, #c15fbb 25%, transparent 25%, transparent 100%), radial-gradient(at 18% 68%, #c15fbb 9%, transparent 9%, transparent 100%);
+     border: 2px solid #920912;
+     box-shadow: inset 0px -5px 0px #a2307e;
+ }
+
+ .icon_button_watsap {
+    background: url(../img/button-icon-watsap.png) no-repeat center center,radial-gradient(at 50% 48%, transparent 64%, #429c5d 64%, #429c5d 100%), radial-gradient(at 33% 33%, rgba(255,255,255, 0.2) 25%, transparent 25%, transparent 100%), radial-gradient(at 18% 68%, rgba(255,255,255, 0.2) 9%, transparent 9%, transparent 100%), linear-gradient(to bottom,#85ea08 30%, #51af44 70%, #429c5d 100%);
+    border: 2px solid #186830;
+    box-shadow: inset 0px 0px 5px #429c5d;
 }
