@@ -145,6 +145,27 @@
     .description_order {
         font-size: 24px;
     }
+    
+    .section_description {
+        min-height: 770px;
+    }
+
+    .logo_section_description {
+        left: -40px;
+        width: 530px;
+    }
+    
+    .text_section_description {
+        font-size: 38px;
+        width: 750px;
+        letter-spacing: 1px;
+        line-height: 45px;
+    }
+    
+    .sofa-img_section_description {
+       width: 650px;
+       bottom: -120px;
+    }
 }
 
 
@@ -304,6 +325,33 @@
     .border_button_specal_offer:after {
         top: 45%;
     }
+
+    .section_description {
+        min-height: 460px;
+    }
+    
+    .logo_section_description {
+        left: -40px;
+        width: 450px;
+    }
+    
+    .content_section_description {
+        height: 250px;
+        width: 645px;
+        padding: 25px;
+        margin: 60px 30px;
+    }
+    
+    .text_section_description {
+        font-size: 22px;
+        width: 100%;
+        line-height: 33px;
+    }
+    
+    .sofa-img_section_description {
+       width: 450px;
+       bottom: -90px;
+    }
 }
 
 @media (max-width: 850px) {
@@ -413,6 +461,10 @@
         height: 70%;
         width: 300px;
         right: 0;
+    }
+
+    .text_section_description {
+        letter-spacing: 0px;
     }
 
 }
@@ -545,6 +597,31 @@
         height: 40px;
         top: 2px;
         left: -100px;
+    }
+
+    .section_description {
+        min-height: 410px;
+    }
+    
+    .logo_section_description {
+        width: 350px;
+    }
+    
+    .content_section_description {
+        width: 315px;
+        margin: 40px 10px;
+        padding: 20px;
+    }
+    
+    .text_section_description {
+        font-size: 19px;
+        line-height: 22px;
+    }
+    
+    .sofa-img_section_description {
+        width: 300px;
+        bottom: -80px;
+        right: 4px;
     }
 
 }
