@@ -166,6 +166,55 @@
        width: 650px;
        bottom: -120px;
     }
+
+    .section_properties { 
+        align-items: center;
+    }
+    
+    .section_properties:after {
+        height: 60%;
+        width: 60%;
+        background-size: contain;
+    }
+    
+    .content_setion_properties{
+        min-height: 800px;
+        max-width: 900px;
+        justify-content: space-between;
+    }
+    
+    .title_section_properties:after {
+        height: 150px;
+        width: 500px; 
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    .block_section_properties {
+       width: 185px;
+       height: 160px;
+       margin: 10px;
+    }
+
+    .block_section_properties_bk-1,
+    .block_section_properties_bk-4 {
+       margin-top: 35px;
+    }
+
+    .block_section_properties_bk-5,
+    .block_section_properties_bk-8 {
+       margin-bottom: 35px;
+    }
+    
+    .icon_block_properties {
+        width: 120px;
+        height: 75px;
+    }
+    
+    .title_block_properties {
+        font-size: 11px;
+        padding: 10px;
+    }
 }
 
 
@@ -352,6 +401,46 @@
        width: 450px;
        bottom: -90px;
     }
+
+    .section_properties { 
+        background: white;
+        align-items: center;
+    }
+    
+    .section_properties:after {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to bottom, transparent 25%, #839aa54d 25%, #839aa54d 32%, transparent 32%, transparent 51.5%, #839aa54d 51.5%, #839aa54d 58.5%, transparent 58.5%, transparent 78%, #839aa54d 78%, #839aa54d 85%, transparent 85%, transparent 100%);
+    }
+    
+    .content_setion_properties{
+        min-height: 600px;
+        max-width: 900px;
+        justify-content: center;
+    }
+    
+    .title_section_properties {
+        order: 1;
+        align-items: center;
+        height: 90px;
+    }
+    
+    .title_section_properties:after {
+        height: auto;
+        width:  550px; 
+        padding: 0;
+        font-size: 23px;
+        line-height: 30px;
+        background: white;;
+        color: #757474;
+    }
+    
+    .block_section_properties {
+        order: 2;
+        margin: 30px;
+        z-index: 3;
+    }
+    
 }
 
 @media (max-width: 850px) {
@@ -385,6 +474,14 @@
         right: -25px;
     }
 
+    .block_section_properties {
+        margin: 15px;
+    }
+    
+    .title_section_properties {
+        height: 80px;
+    }
+    
 }
 
 @media (max-width: 750px) {
@@ -465,6 +562,23 @@
 
     .text_section_description {
         letter-spacing: 0px;
+    }
+
+    .section_properties:after {
+        background: none;
+    }
+
+    .block_section_properties {
+        margin: 20px;
+    }
+    
+    .title_section_properties {
+        width: 100%;
+        height: 90px;
+    }
+    
+    .title_section_properties:after {
+        font-size: 20px;
     }
 
 }
@@ -674,6 +788,56 @@
     
 }
 
+@media (max-width: 550px) {
+
+    .content_setion_properties {
+        margin: 30px 0px;
+    }
+
+    .section_properties:after {
+        background: none;
+    }
+
+    .block_section_properties {
+        width: 140px;
+        height: 165px;
+        margin: 15px;
+        margin-bottom: 5px;
+    }
+
+    .icon_block_properties {
+        width: 75px;
+        height: 55px;
+        background-size: 35px 35px;
+        border-bottom: 2px solid white;
+    }
+
+    .title_block_properties {
+        font-weight: 600;
+        padding: 10px;
+        padding-top: 8px;
+    }
+
+    .block_section_properties_bk-1 .icon_block_properties {
+        background-size: 70px 32px;
+    }
+
+    .block_section_properties_bk-3 .icon_block_properties {
+        background-size: 35px 35px;
+    }
+    
+    .title_section_properties {
+        width: 100%;
+        height: 80px;
+    }
+    
+    .title_section_properties:after {
+        font-size: 16px;
+        line-height: 22px;
+        width: 300px
+    }
+}
+
 @media (max-width: 500px) {
     .nav_list_links_soc {
         align-items: flex-start;
@@ -711,6 +875,10 @@
         padding: 0;
         margin: 0;
         margin-right: 10px;
+    }
+
+    .block_section_properties {
+        margin: 10px;
     }
 }
 

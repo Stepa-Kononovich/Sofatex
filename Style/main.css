@@ -543,7 +543,7 @@ main section {
 
 /*
 ===========================================================================>
-||||||||||||||||||||||||||||||||Section order||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||Section discription||||||||||||||||||||||||
 ===========================================================================>
 */
 
@@ -589,3 +589,172 @@ main section {
     z-index: 3;
     right: 0;
 }
+
+/*
+===========================================================================>
+||||||||||||||||||||||||||||||||Section properties|||||||||||||||||||||||||
+===========================================================================>
+*/
+
+.section_properties { 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: linear-gradient(to bottom, white 35%, #e4eaef 35%, #e4eaef 65%, white 65%, white 100% );
+}
+
+.section_properties:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/section4back.png);
+    background-repeat: no-repeat;
+    background-position: 50%  50%;
+}
+
+.content_setion_properties{
+    min-height: 970px;
+    display: flex;
+    align-content: space-between;
+    max-width: 1080px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.title_section_properties {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_section_properties:after {
+    content: "Эластичные чехлы Софатэкс - ваша дизайнерская мебель без лишних трат!";
+    position: absolute;
+    height: 170px;
+    width: 580px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 43px;
+    justify-content: center;
+    padding: 30px;
+    padding-top: 35px;
+    text-transform: uppercase;
+    color: white;
+    font-family: MullerHeavy;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 200px;
+    background: #7f96a3;
+}
+
+.block_section_properties {
+    width: 230px;
+    height: 195px;
+    border-radius: 30px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 15px 20px 15px 0px #d7d3d6
+}
+
+.icon_block_properties {
+    width: 160px;
+    height: 80px;
+    margin-top: 5px;
+    border-bottom: 4px solid white;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.title_block_properties {
+    text-align: center;
+    line-height: 18px;
+    font-family: Muller;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 20px 20px 20px;
+    color: white;
+}
+
+.block_section_properties_bk-1,
+.block_section_properties_bk-4 {
+  margin-top: 48px;
+}
+
+.block_section_properties_bk-5,
+.block_section_properties_bk-8 {
+  margin-bottom: 48px;
+}
+
+.block_section_properties_bk-6,
+.block_section_properties_bk-7 {
+    align-self: flex-end;
+}
+
+.block_section_properties_bk-2 {
+    background: linear-gradient(-45deg ,#5a7784, #8ea3ae);
+}
+
+.block_section_properties_bk-5,
+.block_section_properties_bk-4 {
+    background: linear-gradient(-125deg ,#5a7784, #8ea3ae);
+}
+
+.block_section_properties_bk-7 {
+    background: linear-gradient(125deg ,#5a7784, #8ea3ae);
+}
+
+.block_section_properties_bk-6 {
+    background: linear-gradient(45deg, #991149, #bc1e60);
+}
+
+.block_section_properties_bk-1,
+.block_section_properties_bk-8 {
+    background: linear-gradient(45deg, #fc6593, #ee2a7b);
+}
+
+.block_section_properties_bk-3 {
+    background-image: linear-gradient(-45deg, #ee2a7b, #af1e60);
+}
+
+.block_section_properties_bk-1 .icon_block_properties {
+    background-image: url(/img/icon-1.png);
+}
+
+.block_section_properties_bk-2 .icon_block_properties {
+    background-image: url(/img/icon-2.png);
+}
+
+.block_section_properties_bk-3 .icon_block_properties {
+    background-image: url(/img/icon-3.png);
+    background-size: 50px 50px;
+}
+
+.block_section_properties_bk-4 .icon_block_properties {
+    background-image: url(/img/icon-4.png);
+}
+
+.block_section_properties_bk-5 .icon_block_properties {
+    background-image: url(/img/icon-5.png);
+}
+
+.block_section_properties_bk-6 .icon_block_properties {
+    background-image: url(/img/icon-6.png);
+}
+
+.block_section_properties_bk-7 .icon_block_properties {
+    background-image: url(/img/icon-7.png);
+}
+
+.block_section_properties_bk-8 .icon_block_properties {
+    background-image: url(/img/icon-8.png);
+}
+
