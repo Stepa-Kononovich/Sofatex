@@ -173,7 +173,7 @@
     
     .section_properties:after {
         height: 60%;
-        width: 60%;
+        width: 600px;
         background-size: contain;
     }
     
