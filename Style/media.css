@@ -463,7 +463,7 @@
 
     .title_section_reviews {
         margin-left: 110px;
-        min-width: 550px;
+        max-width: 550px;
     }
     
     .title_section_reviews h1 {   
@@ -553,10 +553,8 @@
 }
 
 @media (max-width: 780px) {
-
     .title_section_reviews {
         margin: 0 20px;
-        min-width: 400px;
     }
     
     .title_section_reviews h1 { 
@@ -582,6 +580,7 @@
         height: 220px;
         max-width: 500px;
         margin: 25px;
+        border: 5px solid #6b787c;
     }
 
     .image_section_reviews {
