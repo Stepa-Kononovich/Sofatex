@@ -543,7 +543,7 @@
     }
 
     .button_section_reviews {
-        height: 80px;
+        min-height: 80px;
     }
 
     .button_reviews {
@@ -645,7 +645,7 @@
 
     .main_section_reviews {
         margin-top: 20px;
-        min-height: 300px;
+        min-height: 150px;
     }
 
     .content_image_reviews {
@@ -1022,8 +1022,16 @@
 
     .content_text_reviews {
         font-size: 12px;
-        padding: 18px 20px;
+        padding: 12px 18px;
         padding-bottom: 5px;
+    }
+
+    .main_section_review {
+        min-height: 250px;
+    }
+
+    .content_section_reviews {
+        margin: 25px 0;
     }
 
     .content_mine_section_reviews {
@@ -1045,9 +1053,9 @@
     }
 
     .content_image_reviews {
-        height: 180px;
+        height: 150px;
         max-width: 380px;
-        margin: 25px;
+        margin: 20px;
     }
 
     .image_section_reviews {
@@ -1060,6 +1068,7 @@
 
     .auther_reviews {
         font-size: 14px;
+        line-height: 35px;
     }
 
     .button_reviews {
@@ -1068,7 +1077,7 @@
     }
 
     .button_section_reviews {
-        min-height: 70px;
+        min-height: 60px;
     }
 
     .contain_button_reviews {
@@ -1126,6 +1135,7 @@
         line-height: 22px;
         width: 300px
     }
+
 }
 
 @media (max-width: 500px) {
