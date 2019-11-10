@@ -235,6 +235,49 @@
     .content_image_reviews {
         height: 300px;
     }
+
+    .insrtuction{
+        padding-top: 80px;
+        padding-bottom: 50px;
+        max-width: 900px;
+    }
+
+    .instruction__title-wrapper::before {
+        max-width: 800px;
+        top: -30px;
+        left: -30px;
+        z-index: -1;
+    }
+    
+    .instruction__title {
+        max-width: 700px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .usage-decription__elem-wrapper {
+        list-style: none;
+        position: relative;
+        padding-left: 50px;
+     }
+     
+     .usage-decription__elem-content {
+        font-size: 15px;
+        max-width: 240px;
+        padding: 10px 20px 10px 40px;
+     }
+
+     .usage-decription__elem-number {
+        line-height: 85px;
+        font-size: 20px;
+        width: 70px;
+        height: 85px;
+    }
+
+    .usage-video {
+        width: 530px;
+        height: 320px;
+    }
 }
 
 
@@ -507,6 +550,35 @@
         height: 60px;
         width: 200px;
         font-size: 22px;
+    }
+
+    .insrtuction{
+        max-width: 600px;
+    }
+
+    .instruction__title-wrapper::before {
+        max-width: 600px;
+        top: -25px;
+        left: -30px;
+    }
+    
+    .instruction__title {
+        max-width: 500px;
+        font-size: 25px;
+        line-height: 27px;
+    }
+
+    .instruction__main-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .usage-video {
+        width: 530px;
+        height: 320px;
+        align-self: center;
+        margin-top: 20px;
+        border-width: 8px;
     }
     
 }
@@ -847,6 +919,49 @@
         right: 4px;
     }
 
+    .insrtuction{
+        max-width: 330px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .instruction__title-wrapper::before {
+        max-width: 330px;
+        height: 300px;
+        top: 0;
+        left: 0;
+    }
+
+    .instruction__main-content {
+        padding-top: 0;
+        align-items: center;
+    }
+
+    .usage-decription__elem-number {
+        font-size: 18px;
+    }
+
+    .usage-decription__elem-content {
+        max-width: 240px;
+        padding: 10px 20px 10px 30px;
+    }
+
+    .section__block-wrapper {
+        margin: 0 10px;
+    }
+    
+    .instruction__title {
+        max-width: 250px;
+        font-size: 20px;
+        line-height: 22px;
+        margin: 15px 20px;
+    }
+
+    .usage-video {
+        width: 315px;
+        height: 190px;
+    }
+
 }
 
 @media (max-width: 650px) {
@@ -908,6 +1023,7 @@
     .content_text_reviews {
         font-size: 12px;
         padding: 18px 20px;
+        padding-bottom: 5px;
     }
 
     .content_mine_section_reviews {

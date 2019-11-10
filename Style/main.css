@@ -933,3 +933,127 @@ main section {
     height: 80px;
     background: linear-gradient(180deg, #FF378B 0%, #FF649C 2.07%, #FE75C7 2.93%, #FF459E 25%, #FF2581 65.1%, #FB8DCF 95.83%, #FF41B3 100%);
 }
+
+/*
+===========================================================================>
+||||||||||||||||||||||||||||Section instruction||||||||||||||||||||||||||||
+===========================================================================>
+*/
+
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.section_gradient-bg_white-pink {
+    background: linear-gradient(to right, white 35%, #ee2a7b 35%);
+}
+
+.section__block-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.insrtuction{
+    padding-top: 100px;
+    padding-bottom: 60px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.instruction__title-wrapper {
+    position: relative;
+    width: 100%;
+    z-index: 5;
+}
+
+.instruction__title-wrapper::before {
+    content: "";
+    position: absolute;
+    max-width: 1075px;
+    width: 100%;
+    height: 330px;
+    background-color: #ae1d5eb5;
+    border-radius: 30px;
+    top: -40px;
+    left: -45px;
+    z-index: -1;
+}
+
+.instruction__title {
+    max-width: 900px;
+    font-size: 43px;
+    color: white;
+    font-family: MyriadProRegular;
+    font-weight: 900;
+    line-height: 45px;
+}
+
+.instruction__main-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.usage-decription {
+    display: flex;
+    flex-direction: column;
+    z-index: 15;
+}
+
+.usage-decription__elem-wrapper {
+   list-style: none;
+   position: relative;
+   padding-left: 50px;
+}
+
+.usage-decription__elem-content {
+    color: #5e5e5e;
+    font-size: 20px;
+    max-width: 325px;
+    font-family: Muller;
+    font-weight: bold;
+    margin: 10px 0;
+    border-radius: 30px;
+    padding: 15px 30px 15px 60px;
+}
+
+.usage-decription__elem-number {
+    position: absolute;
+    color: white;
+    line-height: 115px;
+    font-size: 26px;
+    font-family: MullerHeavy;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100px;
+    height: 110px;
+    background: url(../img/icon-14.svg) no-repeat 50% 50%;
+    margin: auto 0;
+    left: 0; right: 0; top: 0; bottom: 0;
+}
+
+.usage-decription__elem-content_bg_1 {
+    background-image: linear-gradient(26deg, #ffffff, #fca1ae);
+}
+
+.usage-decription__elem-content_bg_2 {
+    background-image: linear-gradient(-150deg, #ffffff, #fca1ae);
+}
+
+.usage-video {
+    width: 695px;
+    height: 415px;
+    border: 5px solid #fc6090;
+    border-radius: 30px;
+    background-color: #ffffff;
+    z-index: 5;
+}
