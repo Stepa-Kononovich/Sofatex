@@ -1057,3 +1057,130 @@ main section {
     background-color: #ffffff;
     z-index: 5;
 }
+
+/*
+===========================================================================>
+||||||||||||||||||||||||||||Section advantages||||||||||||||||||||||||||||
+===========================================================================>
+*/
+
+.advantages {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    width: 100%;
+    font-size: 35px;
+    color: white;
+    font-family: MyriadProRegular;
+    font-weight: 900;
+    line-height: 45px;
+}
+
+.advantages__title-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    color: #757474;
+    line-height: 55px;
+}
+
+.title__advantages {
+    max-width: 980px;
+    margin: 45px 0;
+}
+
+.advantages__content {
+    width: 100%;
+    background-color: #e4eaef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrappers {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+}
+
+.wrappers_advantages-list {
+    list-style: none;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.advantages__element {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 290px;
+}
+
+.advantages__element-icon {
+    width: 90px;
+    height: 90px;
+    margin: 20px auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+}
+
+.advantages__element-icon_img_1 {
+    background-image: url(../img/icon-15.png);
+}
+
+.advantages__element-icon_img_2 {
+    background-image: url(../img/icon-16.png);
+}
+
+.advantages__element-icon_img_3 {
+    background-image: url(../img/icon-17.png);
+}
+
+.advantages__element-icon_img_4 {
+    background-image: url(../img/icon-18.png);
+}
+
+.advantages__element-text {
+    font-family: Muller;
+    font-size: 28px;
+    padding-left: 15px;
+    margin: 25px 0;
+    border-left: 3px solid #8ea3ae;
+    font-weight: 600;
+    color: #636363;
+}
+
+.advantages__ordering-wrapper {
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 50px 0;
+    margin-bottom: 70px;
+}
+
+.advantages__ordering-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: MullerHeavy;
+    color: white;
+    font-size: 38px;
+    font-weight: 0;
+    border-width: 0;
+    border-radius: 16px;
+    width: 250px;
+    height: 80px;
+    margin-left: 40px;
+    background: linear-gradient(180deg, #FF378B 0%, #FF649C 2.07%, #FE75C7 2.93%, #FF459E 25%, #FF2581 65.1%, #FB8DCF 95.83%, #FF41B3 100%);
+}
+
+.advantages__ordering-title {
+    color: #ee2a7b;
+    font-family: MullerHeavy;
+    font-weight: 0;
+    font-size: 50px;
+    max-width: 780px;
+    font-weight: 900;
+}
